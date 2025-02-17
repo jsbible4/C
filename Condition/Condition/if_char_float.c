@@ -1,0 +1,24 @@
+//
+//  if_char_float.c
+//  Condition
+//
+//  Created by 정동하 on 1/21/25.
+//
+
+#include <stdio.h>
+int main_t3(void)
+{
+    float num1 = 0.1f;
+    char c1 = 'a';
+    
+    if (num1 == 0.1f)
+        printf(" 0.1입니다. \n");
+    
+    if (c1 == 'a')
+        printf(" 'a' 입니다. \n");
+    
+    if ( c1 == 97 )                 //문자를 ASCII 코드로 비교
+        printf(" a 입니다2.\n");
+    return 0;
+    
+}
